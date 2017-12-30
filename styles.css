@@ -50,12 +50,8 @@ header nav ul li {
 .nav-icon{
   height: .8em;
   width: auto;
-  fill: #39ADD1;
+  fill: currentColor;
   padding-right: .25em;
-}
-
-.nav-icon:hover{
-  fill: #111;
 }
 
 main {
