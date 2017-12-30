@@ -47,6 +47,17 @@ header nav ul li {
   margin-right: 20px;
 }
 
+.nav-icon{
+  height: .8em;
+  width: auto;
+  fill: #39ADD1;
+  padding-right: .25em;
+}
+
+.nav-icon:hover{
+  fill: #111;
+}
+
 main {
   padding-top: 50px;
 }
