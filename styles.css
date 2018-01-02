@@ -27,10 +27,11 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
-  transition: .5s;
+  transition: .2s;
 }
 
-a:hover {
+a:hover,
+nav li:hover .nav-icon {
   color: #111;
 }
 
@@ -56,8 +57,8 @@ header nav ul li {
   transition: .5s;
 }
 
-.nav-icon:hover{
-  transform: rotate(360deg)
+nav li:hover .nav-icon {
+  transform: rotate(360deg);
 }
 
 .logo-name {
